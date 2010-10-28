@@ -1,0 +1,186 @@
+rabbitmq-server (2.1.1-1) lucid; urgency=low
+
+  * New upstream release 
+
+ -- Jeremy Grosser <jeremy@simplegeo.com>  Thu, 28 Oct 2010 12:47:03 -0700
+
+rabbitmq-server (2.1.0-1ubuntu1) natty; urgency=low
+
+  * Merge from debian unstable.  Remaining changes:
+    - debian/preinst, debian/rabbitmq-server.templates: Warn user about upgrading from a really old version.
+      (LP:  #506985)
+    - debian/control: Update maintainer according to spec.
+
+ -- Chuck Short <zulcss@ubuntu.com>  Mon, 04 Oct 2010 20:15:40 +0100
+
+rabbitmq-server (2.1.0-1) unstable; urgency=low
+
+  * New upstream release
+
+ -- John Leuner <jewel@debian.org>  Mon, 27 Sep 2010 20:28:06 +0200
+
+rabbitmq-server (2.0.0-2) unstable; urgency=low
+
+  * Fix various scripts that were not updated correctly in
+    - the 2.0.0-1 package, closes: #594724
+
+ -- John Leuner <jewel@debian.org>  Thu, 02 Sep 2010 18:01:37 +0200
+
+rabbitmq-server (2.0.0-1) unstable; urgency=low
+
+  * New upstream release
+
+ -- John Leuner <jewel@debian.org>  Sat, 28 Aug 2010 11:21:48 +0200
+
+rabbitmq-server (1.8.1-1) unstable; urgency=low
+
+  * New upstream release
+
+ -- John Leuner <jewel@debian.org>  Sun, 01 Aug 2010 15:47:46 +0200
+
+rabbitmq-server (1.8.0-1ubuntu2) maverick; urgency=low
+
+  * debian/preinst: Don't present note about upgrades when doing initial 
+    install. (LP: #651047) 
+
+ -- Chuck Short <zulcss@ubuntu.com>  Mon, 04 Oct 2010 08:54:12 -0400
+
+rabbitmq-server (1.8.0-1ubuntu1) maverick; urgency=low
+
+  * Merge from debian unstable, remaining changes are:
+    - debian/preinst, debian/rabbitmq-server.templates: Warn user about upgrading from a really old version.
+      (LP: #506985)
+    - debian/contol: Update maintainer according to spec. 
+
+ -- Chuck Short <zulcss@ubuntu.com>  Tue, 29 Jun 2010 10:46:15 -0400
+
+rabbitmq-server (1.8.0-1) unstable; urgency=low
+
+  * New upstream release
+
+ -- John Leuner <jewel@debian.org>  Thu, 24 Jun 2010 18:43:04 +0200
+
+rabbitmq-server (1.7.2-1ubuntu1) lucid; urgency=low
+
+  * debian/preinst, debian/rabbitmq-server.templates: Warn user about upgrading from a really old version.
+    (LP: #506985)
+  * debian/control: Update maintainer according to spec.
+
+ -- Chuck Short <zulcss@ubuntu.com>  Tue, 30 Mar 2010 23:10:55 -0400
+
+rabbitmq-server (1.7.0-3) unstable; urgency=low
+
+  * Add missing entries in rabbitmq-server.init
+
+ -- John Leuner <jewel@debian.org>  Sun, 25 Oct 2009 10:21:25 +0200
+
+rabbitmq-server (1.7.0-2) unstable; urgency=low
+
+  * moved debian/init.d to rabbitmq-server.init
+  * included fixes to rabbitmq-script-wrapper
+
+ -- John Leuner <jewel@debian.org>  Wed, 14 Oct 2009 12:23:52 +0200
+
+rabbitmq-server (1.7.0-1) unstable; urgency=low
+
+  * New upstream release
+
+ -- John Leuner <jewel@debian.org>  Sat, 10 Oct 2009 13:28:39 +0200
+
+rabbitmq-server (1.6.0-1) unstable; urgency=low
+
+  * New upstream release
+
+ -- John Leuner <jewel@debian.org>  Sat, 20 Jun 2009 12:22:17 +0200
+
+rabbitmq-server (1.5.5-3) unstable; urgency=low
+
+  *  debian/control: Reduce Erlang dependencies to just
+     erlang-mnesia and erlang-os-mon, closes: #532867
+
+ -- John Leuner <jewel@debian.org>  Tue, 16 Jun 2009 14:15:20 +0200
+
+rabbitmq-server (1.5.5-2) unstable; urgency=low
+
+  * Include updates to debian package by rabbit team:
+    - quiet log rotate 
+    - update build-depends and depends for new erlang packages
+    - debian/watch file
+    - add rabbitmq-script-wrapper
+    - update init.d scripts
+    - clean /etc/rabbitmq in postrm
+
+ -- John Leuner <jewel@debian.org>  Wed, 03 Jun 2009 12:23:50 +0200
+
+rabbitmq-server (1.5.5-1) unstable; urgency=low
+
+  * New upstream release
+
+ -- John Leuner <jewel@debian.org>  Tue, 02 Jun 2009 12:53:32 +0200
+
+rabbitmq-server (1.5.4-4) unstable; urgency=low
+
+  * Add new dependency on erlang-os-mon to work with new erlang packages in
+    debian
+
+ -- John Leuner <jewel@debian.org>  Mon, 11 May 2009 21:20:04 +0200
+
+rabbitmq-server (1.5.4-3) unstable; urgency=low
+
+  * Previous partial upload failed
+
+ -- John Leuner <jewel@debian.org>  Fri, 10 Apr 2009 20:25:51 +0200
+
+rabbitmq-server (1.5.4-2) unstable; urgency=low
+
+  * Fix incorrect changed-by field in .changes file
+
+ -- John Leuner <jewel@debian.org>  Fri, 10 Apr 2009 19:40:04 +0200
+
+rabbitmq-server (1.5.4-1) unstable; urgency=low
+
+  * New upstream release
+
+ -- John Leuner <jewel@debian.org>  Fri, 10 Apr 2009 17:54:21 +0200
+
+rabbitmq-server (1.5.0-5) unstable; urgency=low
+
+  * Include the full license for amqp-0.8.json in debian/copyright
+
+ -- John Leuner <jewel@debian.org>  Fri, 27 Feb 2009 16:16:54 +0200
+
+rabbitmq-server (1.5.0-4) unstable; urgency=low
+
+  * Clarify and explicitly list the license and copyright for
+    codegen/amqp-0.8.json
+	
+  * Explicitly list the authors and copyright for the rest of the codebase
+    at the top of debian/copyright
+	
+  * Clarify the copyright of the files in src/tcp_* . The rabbitmq authors have
+    confirmed that they are the original authors of this code and that the
+    files at http://code.google.com/p/cacherl/ were taken without their
+    knowledge from the rabbitmq project. (Comparing the commit dates in version
+    control shows that cacherl is newer)
+
+ -- John Leuner <jewel@debian.org>  Wed, 25 Feb 2009 13:10:15 +0200
+
+rabbitmq-server (1.5.0-3) unstable; urgency=low
+
+  * Previous changelog entry had an incorrect Maintainer name
+
+ -- John Leuner <jewel@debian.org>  Wed, 28 Jan 2009 16:45:33 +0200
+
+rabbitmq-server (1.5.0-2) unstable; urgency=low
+
+  * Reupload package to unstable. Mistakenly uploaded to testing last time, closes: #507902
+
+ -- John Leuner <jewel@debian.org>  Mon, 19 Jan 2009 17:38:43 +0200
+
+rabbitmq-server (1.5.0-1) testing; urgency=low
+
+  * New Upstream Release
+  * First Debian upload, closes: #507902
+
+ -- John Leuner <jewel@debian.org>  Wed, 17 Dec 2008 18:23:47 +0000
+

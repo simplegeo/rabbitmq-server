@@ -1,0 +1,14 @@
+#!/bin/sh
+
+set -e
+
+. /usr/share/debconf/confmodule
+
+if dpkg --compare-versions "$2" lt-nl 1.6.0; then
+	db_version 2.0
+
+	db_input high rabbitmq-server/upgrade_previous || true
+	db_go || true
+fi
+
+#DEBHELPER#
