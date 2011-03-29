@@ -1,3 +1,9 @@
+rabbitmq-server (2.3.1-1sg0) unstable; urgency=low
+
+  * SimpleGeo backport.
+
+ -- Paul Lathrop <paul@simplegeo.com>  Tue, 29 Mar 2011 03:46:02 -0700
+
 rabbitmq-server (2.3.1-1) unstable; urgency=low
 
   * New upstream release, closes: #611253
@@ -76,7 +82,7 @@ rabbitmq-server (1.5.5-3) unstable; urgency=low
 rabbitmq-server (1.5.5-2) unstable; urgency=low
 
   * Include updates to debian package by rabbit team:
-    - quiet log rotate 
+    - quiet log rotate
     - update build-depends and depends for new erlang packages
     - debian/watch file
     - add rabbitmq-script-wrapper
@@ -126,10 +132,10 @@ rabbitmq-server (1.5.0-4) unstable; urgency=low
 
   * Clarify and explicitly list the license and copyright for
     codegen/amqp-0.8.json
-	
+
   * Explicitly list the authors and copyright for the rest of the codebase
     at the top of debian/copyright
-	
+
   * Clarify the copyright of the files in src/tcp_* . The rabbitmq authors have
     confirmed that they are the original authors of this code and that the
     files at http://code.google.com/p/cacherl/ were taken without their
