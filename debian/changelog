@@ -1,3 +1,14 @@
+rabbitmq-server (2.3.1-1sg8) UNRELEASED; urgency=low
+
+  [ Paul Lathrop ]
+  * Revert "Remove -sname option from scripts so you can set the node
+    name." This reverts commit d9f9c6023a8d453bcf235cef16c056b0582aed79.
+    We should do this via puppet instead.
+
+  [ SimpleGeo Nerds ]
+
+ -- SimpleGeo Nerds <nerds@simplegeo.com>  Tue, 29 Mar 2011 23:43:02 +0000
+
 rabbitmq-server (2.3.1-1sg7) UNRELEASED; urgency=low
 
   * UNRELEASED
