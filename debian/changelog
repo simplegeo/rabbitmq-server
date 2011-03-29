@@ -1,3 +1,12 @@
+rabbitmq-server (2.3.1-1sg4) UNRELEASED; urgency=low
+
+  [ Paul Lathrop ]
+  * Remove -sname option from scripts so you can set the node name.
+
+  [ SimpleGeo Nerds ]
+
+ -- SimpleGeo Nerds <nerds@simplegeo.com>  Tue, 29 Mar 2011 23:08:02 +0000
+
 rabbitmq-server (2.3.1-1sg3) UNRELEASED; urgency=low
 
   * UNRELEASED
