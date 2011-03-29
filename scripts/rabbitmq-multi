@@ -65,7 +65,6 @@ exec erl \
     -noinput \
     -hidden \
     ${RABBITMQ_MULTI_ERL_ARGS} \
-    -sname rabbitmq_multi$$ \
     ${RABBITMQ_CONFIG_ARG} \
     -s rabbit_multi \
     ${RABBITMQ_MULTI_START_ARGS} \
