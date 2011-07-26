@@ -1,3 +1,9 @@
+rabbitmq-server (2.3.1-1sg50) UNRELEASED; urgency=low
+
+  * UNRELEASED
+
+ -- SimpleGeo Nerds <nerds@simplegeo.com>  Tue, 26 Jul 2011 00:04:55 +0000
+
 rabbitmq-server (2.3.1-1sg49) UNRELEASED; urgency=low
 
   * UNRELEASED
